@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <img src="https://dprietoc.github.io/vueSampleLastfmAPI/dist/logo.png">
     <h1>App Platzi Music</h1>
     <select name="countries" id="countries" v-model="selectedCountry">
       <option v-for="country in countries" :value="country.value">{{country.name}}</option>
